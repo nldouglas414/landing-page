@@ -1,0 +1,18 @@
+.header {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: indigo;
+    color: peachpuff;
+    display: flex;
+    
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px white solid;
+    padding: 12px;
+}
