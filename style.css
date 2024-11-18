@@ -1,18 +1,74 @@
 .header {
 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: indigo;
-    color: peachpuff;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(107, 66, 136);
+    color: rgb(226, 202, 20);
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
     
 }
 
-ul {
 
+#header-links ul {
+
+    
+    margin: 15px;
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.intro {
+
+    background-color: blueviolet;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    border: 1px white solid;
-    padding: 12px;
+    justify-content: flex-start;
+    flex: 0; 
+}
+
+.signup {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+    flex-grow: 50%;
+    justify-content: center;
+}
+
+.intro-image {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 45px;
+}
+
+.info ul .rounded-image{
+    
+   list-style-type: none;
+   border-radius: 30px;
+}
+
+.quote {
+
+background-color: skyblue;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.quotetext {
+
+    font-size: 45px;
+    border: 1px solid red;
+    margin: 45px;
 }
